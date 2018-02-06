@@ -1,0 +1,516 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #f7f7f7;
+    background-image: url('../images/fondo2.jpg');
+    background-size: cover;
+}
+
+@font-face {
+    font-family: japaneseBrush;
+    src: url('../font/japaneseBrush.TTF');
+}
+
+@font-face {
+    font-family: tiza;
+    src: url('../font/Cheveuxdange.ttf');
+}
+
+/* ------------------- HEADER ------------------- */
+
+#titulo {
+  font-size: 2.5em;
+  font-weight: bold;
+}
+
+#titulo span{
+  color: #a73a31;
+}
+
+.navbar {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+.topbar{
+  background-color: #212529;
+  padding: 0;
+}
+
+.topbar .container .row {
+  margin:-7px;
+  padding:0;
+}
+
+.topbar .container .row .col-md-12 {
+  padding:0;
+}
+
+.topbar p{
+  margin:0;
+  display:inline-block;
+  font-size: 13px;
+  color: #f1f6ff;
+}
+
+.topbar p > i{
+  margin-right:5px;
+}
+.topbar p:last-child{
+  text-align:right;
+}
+
+header .navbar {
+    margin-bottom: 0;
+}
+
+.topbar li.topbar {
+    display: inline;
+    padding-right: 18px;
+    line-height: 52px;
+    transition: all .3s linear;
+}
+
+.topbar li.topbar:hover {
+    color: #1bbde8;
+}
+
+.topbar ul.info i {
+    color: #131313;
+    font-style: normal;
+    margin-right: 8px;
+    display: inline-block;
+    position: relative;
+    top: 4px;
+}
+
+.topbar ul.info li {
+    float: right;
+    padding-left: 30px;
+    color: #ffffff;
+    font-size: 13px;
+    line-height: 44px;
+}
+
+.topbar ul.info i span {
+    color: #aaa;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 50px;
+    padding-left: 18px;
+}
+
+ul.social-network {
+  border:none;
+  margin:0;
+  padding:0;
+}
+
+ul.social-network li {
+  border:none;
+  margin:0;
+}
+
+ul.social-network li i {
+  margin:0;
+}
+
+ul.social-network li {
+    display:inline;
+    margin: 0 5px;
+    border: 0px solid #2D2D2D;
+    padding: 5px 0 0;
+    width: 32px;
+    display: inline-block;
+    text-align: center;
+    height: 32px;
+    vertical-align: baseline;
+    color: #000;
+}
+
+ul.social-network {
+  list-style: none;
+  margin: 5px 0 10px -25px;
+  float: right;
+}
+
+.waves-effect {
+    position: relative;
+    cursor: pointer;
+    display: inline-block;
+    overflow: hidden;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+    vertical-align: middle;
+    z-index: 1;
+    will-change: opacity, transform;
+    transition: .3s ease-out;
+    color: #fff;
+}
+a {
+  color: #0a0a0a;
+  text-decoration: none;
+}
+
+li {
+    list-style-type: none;
+}
+
+.nav-item {
+  margin-right: 2%;
+}
+
+.bg-image-full {
+    background-position: center center;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+.bg-dark {
+    background-color: #222!important;
+}
+
+.mx-background-top-linear {
+    background: linear-gradient(45deg, #a73a31 48%, #1b1e21 48%);
+}
+
+.active {
+  color: white !important;
+}
+
+/* ------------------- FIN HEADER ------------------- */
+
+/* ------------------- CONTENIDO PRINCIPAL ------------------- */
+
+/*CAROUSEL*/
+
+.slide_juegos {
+  display: flex;
+  justify-content: center;
+}
+
+#carouselExampleIndicators {
+  width: 90%;
+}
+
+.info {
+  margin-bottom: 75px;
+}
+
+.slide_juegos img {
+  width: 100%;
+  max-height: 500px;
+}
+
+.carousel-indicators li {
+  background-color: white;
+}
+
+.carousel-indicators li:hover {
+  background-color:  #a73a31;
+}
+
+@media screen and (max-width: 308px) {
+  .slide_juegos {
+    display: none;
+  }
+}
+
+/*FIN CAROUSEL*/
+
+.nav-link:hover {
+  color: #212529 !important;
+}
+
+.card p {
+  color: white;
+}
+
+.cuerpo {
+  margin-bottom: 90px;
+  margin-top: 110px;
+}
+
+.slide_juegos {
+  width: 100%;
+}
+
+.imagen div img {
+  width: 100%;
+}
+
+.informacion {
+  font-family: japaneseBrush;
+  margin-bottom: 75px;
+}
+
+.informacion a {
+  color: #a73a31;
+}
+
+.informacion p {
+  font-size: 1.6em;
+}
+
+.informacion span {
+  color: #a73a31;
+  font-weight: bold;
+}
+
+h2 {
+  font-family: japaneseBrush;
+  color: #a73a31;
+  text-align: center;
+  margin-bottom: 15px;
+  cursor: pointer;
+}
+
+.card {
+  border-radius: 20px;
+}
+
+.card img {
+  width: 200px;
+  height: 160px;
+  margin-bottom: 15px;
+}
+
+.card p {
+  margin-bottom: 0;
+}
+
+.bg-danger {
+  background-color: #a73a31 !important;
+}
+
+.cargar {
+  margin-top: 20px;
+  text-align: center;
+  color: #212529;
+}
+
+.cargar:hover {
+  color: #a73a31;
+  text-decoration: none;
+}
+
+.list-group{
+  box-shadow: 5px 5px 8px rgb(56, 54, 54);
+}
+
+.mapa {
+  border: 5px solid #212529;
+}
+
+p {
+  color: #212529;
+}
+
+.breadcrumb {
+  background-color: inherit;
+  padding: 1%;
+}
+
+.slide_juegos {
+  margin-bottom: 35px;
+}
+
+.fa {
+  color: rgb(193, 191, 48);
+  text-shadow: 1px 1px 5px #212529;
+  margin-right: 3px;
+}
+
+.menu div{
+  background-image: url('../images/pizarra.jpeg');
+  padding: 15px;
+  border-radius: 20px;
+  margin-bottom: 20px;
+}
+
+.menu h3 {
+  text-align: center;
+  font-family: tiza;
+  color: #a73a31;
+}
+
+.menu p {
+  font-weight: bold;
+}
+
+.menu li {
+  list-style: circle;
+}
+
+.menu p, .menu li, .menu h4{
+  font-family: tiza;
+  color: white;
+}
+
+.menu div:hover{
+  transform: scale(1.05);
+}
+
+@media screen and (max-width: 480px) {
+  .cuerpo {
+    margin-bottom: 180px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  #titulo  span{
+    color: black;
+  }
+  .nav-link:hover {
+    color: #a73a31 !important;
+  }
+  .active {
+    color: #a73a31 !important;
+  }
+}
+
+/* ------------------- FIN CONTENIDO PRINCIPAL ------------------- */
+
+/* ------------------- FOOTER ------------------- */
+
+#mainFooter {
+  background: #131313;
+  display: flex;
+  align-items: center;
+  z-index: 100000;
+  flex: none;
+}
+
+#mainFooter div {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.social-nav {
+  margin: 1em;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.social-nav li:first-child {
+  font-style: normal;
+  font-size: 1em;
+  vertical-align: middle;
+  word-wrap: initial;
+}
+
+.social-nav li {
+  display: inline-block;
+  margin-left: 2.8em;
+  color: #fff;
+  transition: all 150ms linear;
+  line-height: 1;
+  font-size: 1em;
+  margin-bottom: 0;
+}
+
+.social-nav .icon-bubble {
+  width: 3em;
+  height: 3em;
+  border-radius: 50%;
+  text-align: center;
+  margin-left: 1.25em;
+  border: none;
+  background: none;
+  vertical-align: middle;
+  position: relative;
+  z-index: 1;
+  backface-visibility: hidden;
+  transition: color 0.3s;
+  line-height: 3em;
+}
+
+.social-nav .icon-bubble::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  z-index: -1;
+  box-shadow: inset 0 0 0 35px #fff;
+  transform: scale3d(0.9, 0.9, 1);
+  transition: box-shadow 0.2s, transform 0.2s;
+}
+
+.social-nav .icon-bubble a {
+  display: block;
+  color: #131313;
+  outline: 0;
+}
+
+.social-nav li a {
+  color: #8c8c8c;
+  text-decoration: none;
+  padding-bottom: 1em;
+}
+
+.social-nav li:hover a{
+  color: #a73a31;
+  border-bottom: 1px solid #a73a31;
+}
+
+.social-nav {
+  margin: 0.5em;
+}
+
+.social-nav .icon-bubble:hover:before {
+  box-shadow: inset 0 0 0 2px #a73a31;
+  transform: scale3d(1, 1, 1);
+}
+
+.social-nav .icon-bubble:hover a {
+  border-bottom: none;
+  color: #a73a31;
+}
+
+footer p {
+  color: white;
+  font-size: 1em;
+}
+
+.facebook {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.github {
+  font-weight: bold;
+}
+
+@media screen and (max-width: 480px) {
+  #mainFooter div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+/* ------------------- FIN FOOTER -------------------- */

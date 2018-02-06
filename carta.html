@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>SUSHI SI</title>
+  <link rel="icon" type="image/x-icon" href="images/favicon.png">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- Bootstrap core CSS -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <!-- Material Design Bootstrap -->
+  <link href="css/mdb.min.css" rel="stylesheet">
+  <!-- Your custom styles (optional) -->
+  <link href="css/estilos.css" rel="stylesheet">
+</head>
+
+<body>
+  <div class="fixed-top">
+    <header class="topbar">
+      <div class="container">
+      </div>
+    </header>
+    <nav class="navbar navbar-expand-lg navbar-dark mx-background-top-linear">
+      <div class="container">
+        <img src="images/sushiLogo.png" width="75px" height="75px;">
+        <a id="titulo" class="navbar-brand" href="index.html">SUSHI<span>SI</span></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+
+            <li class="nav-item">
+              <a class="nav-link active" href="carta.html">Carta</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="menu.html">Menús</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="galeria.html">Galería</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="comentarios.html">Comentarios</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="reserva.html">Reserva</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="localizacion.html">Localización</a>
+            </li>
+
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </div>
+
+  <div class="container cuerpo text-center">
+    <div class="container">
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+        <li class="breadcrumb-item active"><a href="carta.html">Carta</a></li>
+      </ol>
+    </div>
+
+    <h2 onclick="ocultar(this, '.entrantes')">ENTRANTES</h2>
+    <div class="container entrantes" style="margin-bottom: 15px;">
+      <div class="row">
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+          <div class="card text-white bg-dark mb-3">
+            <div class="card-body">
+              <img class="img-fluid" src="http://www.recetasdiarias.com/wp-content/uploads/2010/01/ensalada-de-langostinos.jpg" alt="">
+              <h5 class="card-title">Ensalada de langostinos</h5>
+              <p>10,83€</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+          <div class="card text-white bg-dark mb-3">
+            <div class="card-body">
+              <img class="img-fluid" src="https://canales.okdiario.com/recetas/img/2016/05/05/ensalada-de-algas-wakame.jpg" alt="">
+              <h5 class="card-title">Ensalada de algas WAKAME</h5>
+              <p>11,28€</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+          <div class="card text-white bg-dark mb-3">
+            <div class="card-body">
+              <img class="img-fluid" src="https://recetasdeviajes.com/wp-content/uploads/2012/03/salmon_marinado.jpg" alt="">
+              <h5 class="card-title">Carpaccio variado</h5>
+              <p>13,18€</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+          <div class="card text-white bg-dark mb-3">
+            <div class="card-body">
+              <img class="img-fluid" src="http://3.bp.blogspot.com/-mUpYro2uCTw/VOI5T-RfQlI/AAAAAAAAYH0/FjpzUtQXo2k/s1600/tartar2.jpg" alt="">
+              <h5 class="card-title">Tartar de atún rojo y salmón</h5>
+              <p>22€</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+          <div class="card text-white bg-dark mb-3">
+            <div class="card-body">
+              <img class="img-fluid" src="https://media-cdn.tripadvisor.com/media/photo-s/08/56/75/66/zakuro.jpg" alt="">
+              <h5 class="card-title">Sopa de miso con langostinos</h5>
+              <p>4,51€</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+          <div class="card text-white bg-dark mb-3">
+            <div class="card-body">
+              <img class="img-fluid" src="http://www.demoslavueltaaldia.com/sites/default/files/arroz-blanco-salteado-con-champinones-y-gambas.jpg" alt="">
+              <h5 class="card-title">Arroz blanco con champiñones</h5>
+              <p>2,49€</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+          <div class="card text-white bg-dark mb-3">
+            <div class="card-body">
+              <img class="img-fluid" src="https://t1.rg.ltmcdn.com/es/images/1/1/5/img_empanadas_de_pollo_relleno_7511_600.jpg" alt="">
+              <h5 class="card-title">Empanadilla de pollo y verdura</h5>
+              <p>9,80€</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+          <div class="card text-white bg-dark mb-3">
+            <div class="card-body">
+              <img class="img-fluid" src="https://hispaniacafe.com/files/2013/05/IMG_3007-618x411.jpg" alt="">
+              <h5 class="card-title">TATAKI de atún rojo con sésamo</h5>
+              <p>23,70€</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <h2 onclick="ocultar(this, '.sushi')">SUSHI Y MAKI</h2>
+    <div class="container sushi" style="margin-bottom: 15px;">
+      <div class="row">
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+          <div class="card text-white bg-dark mb-3">
+            <div class="card-body">
+              <img class="img-fluid" src="https://yosushi.com/YO-UK/media/menu-images/Dishes/SushiMakiSelection-2370x1440.jpg?ext=.jpg" alt="">
+              <h5 class="card-title">3 Nigiri + 3 Maki</h5>
+              <p>6,12€</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+          <div class="card text-white bg-dark mb-3">
+            <div class="card-body">
+              <img class="img-fluid" src="https://image1.masterfile.com/getImage/659-01849651em-maki-sushi-and-nigiri-sushi-on-sushi-board-stock-photo.jpg" alt="">
+              <h5 class="card-title">4 Nigiri + 6 Maki</h5>
+              <p>10,10€</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+          <div class="card text-white bg-dark mb-3">
+            <div class="card-body">
+              <img class="img-fluid" src="https://media-cdn.tripadvisor.com/media/photo-s/03/76/e1/a0/california-roll-salmon.jpg" alt="">
+              <h5 class="card-title">6 Nigiri + 8 Maki</h5>
+              <p>13,18€</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+          <div class="card text-white bg-dark mb-3">
+            <div class="card-body">
+              <img class="img-fluid" src="https://blog.bulletproof.com/wp-content/uploads/2014/12/Sushi4.jpg" alt="">
+              <h5 class="card-title">12 Nigiri</h5>
+              <p>10€</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+          <div class="card text-white bg-dark mb-3">
+            <div class="card-body">
+              <img class="img-fluid" src="http://asiaticoyin.com/uploadfile/20150217230923240318.jpg" alt="">
+              <h5 class="card-title">Bandeja grande</h5>
+              <p>21,50€</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+          <div class="card text-white bg-dark mb-3">
+            <div class="card-body">
+              <img class="img-fluid" src="http://sushikokoro.com/wp-content/uploads/2016/08/bandeja-gourmet-luxe.jpg" alt="">
+              <h5 class="card-title">Bandeja completa</h5>
+              <p>35€</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+          <div class="card text-white bg-dark mb-3">
+            <div class="card-body">
+              <img class="img-fluid" src="https://previews.123rf.com/images/piyato/piyato1107/piyato110700007/10203024-rollo-de-cocina-california-maki-sush-roll-con-masago-japon%C3%A9s-de-carne-de-cangrejo-aguacate-pepino-mayo.jpg" alt="">
+              <h5 class="card-title">Maki California</h5>
+              <p>7,70€</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+          <div class="card text-white bg-dark mb-3">
+            <div class="card-body">
+              <img class="img-fluid" src="https://www.manusmenu.com/wp-content/uploads/2016/05/1-Salmon-Sashimi-with-Ponzu-3-1-of-1.jpg" alt="">
+              <h5 class="card-title">Sashimi</h5>
+              <p>6,80€</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <h2 onclick="ocultar(this, '.especialidades')">ESPECIALIDADES DE LA CASA</h2>
+    <div class="container especialidades" style="margin-bottom: 15px;">
+      <div class="row">
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+          <div class="card text-white bg-dark mb-3">
+            <div class="card-body">
+              <img class="img-fluid" src="http://cdn2.cocinadelirante.com/sites/default/files/styles/gallerie/public/images/2017/02/ramen.jpg" alt="">
+              <h5 class="card-title">Ramen</h5>
+              <p>5,50€</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+          <div class="card text-white bg-dark mb-3">
+            <div class="card-body">
+              <img class="img-fluid" src="https://ep00.epimg.net/elcomidista/imagenes/2014/11/21/articulo/1416554280_141655_1416554280_noticia_normal.jpg" alt="">
+              <h5 class="card-title">Bento</h5>
+              <p>10,20€</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+          <div class="card text-white bg-dark mb-3">
+            <div class="card-body">
+              <img class="img-fluid" src="https://i.ytimg.com/vi/mVJbrF-mvTA/hqdefault.jpg" alt="">
+              <h5 class="card-title">Yakisoba</h5>
+              <p>4,25€</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+          <div class="card text-white bg-dark mb-3">
+            <div class="card-body">
+              <img class="img-fluid" src="http://cdn.hairybikers.com/uploads/images/_recipeImage/Pork-chow-mein.jpg" alt="">
+              <h5 class="card-title">Pork Chow Mein</h5>
+              <p>12,10€</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+          <div class="card text-white bg-dark mb-3">
+            <div class="card-body">
+              <img class="img-fluid" src="http://asiaticoyin.com/uploadfile/20150217230923240318.jpg" alt="">
+              <h5 class="card-title">Bandeja grande</h5>
+              <p>21,50€</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+          <div class="card text-white bg-dark mb-3">
+            <div class="card-body">
+              <img class="img-fluid" src="https://lacocinadetomoko.files.wordpress.com/2012/10/img_7270.jpg" alt="">
+              <h5 class="card-title">Omurice</h5>
+              <p>11,90€</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+          <div class="card text-white bg-dark mb-3">
+            <div class="card-body">
+              <img class="img-fluid" src="http://polloala.com/wp-content/uploads/2013/11/Pollo-a-la-Mandarina.jpg" alt="">
+              <h5 class="card-title">Pollo mandarina</h5>
+              <p>5,50€</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+          <div class="card text-white bg-dark mb-3">
+            <div class="card-body">
+              <img class="img-fluid" src="https://i.pinimg.com/originals/f4/2e/4d/f42e4d9eca31641fc3f285be27015cb0.jpg" alt="">
+              <h5 class="card-title">Pin Miyagi</h5>
+              <p>7,20€</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <h2 onclick="ocultar(this, '.postre')" style="color: #212529;">POSTRES</h2>
+    <div class="container postre" style="margin-bottom: 15px;">
+      <div class="row">
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+          <div class="card text-white bg-danger mb-3">
+            <div class="card-body">
+              <img class="img-fluid" src="https://static.vix.com/es/sites/default/files/imj/elgranchef/P/Postres-japoneses-dango-1.jpg" alt="">
+              <h5 class="card-title">Wagashi</h5>
+              <p>6,12€</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+          <div class="card text-white bg-danger mb-3">
+            <div class="card-body">
+              <img class="img-fluid" src="http://3.bp.blogspot.com/-cUkA5kgIpfc/Unyby2AavJI/AAAAAAAAG7c/qKXYjp2yfIk/s1600/anpan18.jpg" alt="">
+              <h5 class="card-title">Anpaman</h5>
+              <p>3,15€</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+          <div class="card text-white bg-danger mb-3">
+            <div class="card-body">
+              <img class="img-fluid" src="https://i.pinimg.com/originals/86/9b/cc/869bcc2086610395b8f9c7a03b08f7f5.jpg" alt="">
+              <h5 class="card-title">Daifuku</h5>
+              <p>3,80€</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+          <div class="card text-white bg-danger mb-3">
+            <div class="card-body">
+              <img class="img-fluid" src="http://unajaponesaenjapon.com/wp-content/uploads/2012/04/dulces-de-sakura-%E6%A1%9C%E3%81%AE%E3%81%8A%E8%8F%93%E5%AD%9013.jpg" alt="">
+              <h5 class="card-title">Dulces Sakura</h5>
+              <p>8,35€</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+          <div class="card text-white bg-danger mb-3">
+            <div class="card-body">
+              <img class="img-fluid" src="http://2.bp.blogspot.com/-130YzwGuQXc/UnybyZeo8iI/AAAAAAAAG7o/fCc050s_ZZE/s1600/Mitarashi_dango_001.jpg" alt="">
+              <h5 class="card-title">Dango</h5>
+              <p>3,90€</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+          <div class="card text-white bg-danger mb-3">
+            <div class="card-body">
+              <img class="img-fluid" src="https://static.vix.com/es/sites/default/files/styles/large/public/imj/elgranchef/t/tempura-helado.jpg?itok=1AbiLBcB" alt="">
+              <h5 class="card-title">Tempura de helado</h5>
+              <p>2,10€</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+          <div class="card text-white bg-danger mb-3">
+            <div class="card-body">
+              <img class="img-fluid" src="https://lachicadelflequillo.es/wp-content/uploads/2015/10/Mochi.jpg" alt="">
+              <h5 class="card-title">Mochi</h5>
+              <p>5,70€</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+          <div class="card text-white bg-danger mb-3">
+            <div class="card-body">
+              <img class="img-fluid" src="https://i.ytimg.com/vi/go0yBLge8YM/maxresdefault.jpg" alt="">
+              <h5 class="card-title">Ikura Sushi</h5>
+              <p>9,75€</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <h2 onclick="ocultar(this, '.bebidas')" style="color: #212529;">BEBIDAS</h2>
+    <div class="container bebidas" style="margin-bottom: 15px;">
+      <div class="row">
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+          <div class="card text-white bg-danger mb-3">
+            <div class="card-body">
+              <img class="img-fluid" src="https://nutritionfacts.org/app/uploads/2017/03/Mar-20-35-5-Benefits-of-Green-Tea-for-Boosting-Antiviral-Immune-Function.jpeg" alt="">
+              <h5 class="card-title">Té verde</h5>
+              <p>1,50€</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+          <div class="card text-white bg-danger mb-3">
+            <div class="card-body">
+              <img class="img-fluid" src="https://libroderecetas.com/files/recetas/imagepicker/1/sake.jpg" alt="">
+              <h5 class="card-title">Sake</h5>
+              <p>2,30€</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+          <div class="card text-white bg-danger mb-3">
+            <div class="card-body">
+              <img class="img-fluid" src="https://i.ytimg.com/vi/benc5gMcCBc/maxresdefault.jpg" alt="">
+              <h5 class="card-title">Agua con gas</h5>
+              <p>1,80€</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+          <div class="card text-white bg-danger mb-3">
+            <div class="card-body">
+              <img class="img-fluid" src="http://www.elempaque.com/documenta/imagenes/5092924/I-Lohas-una-marca-de-agua-mineral-de-Coca-Cola-Japan-g7.jpg" alt="">
+              <h5 class="card-title">Agua mineral</h5>
+              <p>1,50€</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+          <div class="card text-white bg-danger mb-3">
+            <div class="card-body">
+              <img class="img-fluid" src="https://farm3.static.flickr.com/2563/4250906582_8e54dca203.jpg" alt="">
+              <h5 class="card-title">Tamba Wine</h5>
+              <p>3,25€</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+          <div class="card text-white bg-danger mb-3">
+            <div class="card-body">
+              <img class="img-fluid" src="https://media.betazeta.com/sabrosia/2013/02/sapporo_beer_from_japan-04660-660x550.jpg" alt="">
+              <h5 class="card-title">Cerveza</h5>
+              <p>1,50€</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+          <div class="card text-white bg-danger mb-3">
+            <div class="card-body">
+              <img class="img-fluid" src="http://hattori-hanzo.com.es/sites/default/files/blog/ramune_en_madrid_en_hattori_hanzo_0.jpg" alt="">
+              <h5 class="card-title">Refrescos</h5>
+              <p>2,00€</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+          <div class="card text-white bg-danger mb-3">
+            <div class="card-body">
+              <img class="img-fluid" src="https://pbs.twimg.com/profile_images/563010300153044992/VRbIa9qW.jpeg" alt="">
+              <h5 class="card-title">Qyuzu (Zumo)</h5>
+              <p>3,10€</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <footer id="mainFooter" class="fixed-bottom" [ngClass]="{claro: estilo == 'light', metal: estilo == 'metal'}">
+    <div class="container-fluid">
+      <p>&copy; Pablo Prieto Álvarez</p>
+      <p style="color: #a73a31;">SUSHISI</p>
+      <ul class="social-nav">
+        <li class="icon-bubble"><a href="https://www.facebook.com/pablo.prieto.507" target="_blank"><span class="facebook">f</span></a></li>
+        <li class="icon-bubble"><a href="https://github.com/pabloTSDAW" target="_blank"><span class="github">Git</span></a></li>
+      </ul>
+    </div>
+  </footer>
+
+  <!-- JQuery -->
+  <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+  <!-- Bootstrap tooltips -->
+  <script type="text/javascript" src="js/popper.min.js"></script>
+  <!-- Bootstrap core JavaScript -->
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <!-- MDB core JavaScript -->
+  <script type="text/javascript" src="js/mdb.min.js"></script>
+
+  <!-- SCRIPTS -->
+  <script type="text/javascript">
+
+    $('.entrantes').css('display', 'none');
+    $('.sushi').css('display', 'none');
+    $('.especialidades').css('display', 'none');
+    $('.postre').css('display', 'none');
+    $('.bebidas').css('display', 'none');
+
+    function ocultar(elem, clase){
+      $(elem).siblings(clase).toggle();
+    }
+
+  </script>
+</body>
+
+</html>

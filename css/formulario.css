@@ -1,0 +1,86 @@
+#playground-container {
+  height: 500px;
+  overflow: hidden !important;
+}
+
+.main {
+  margin: 0 15px;
+}
+
+h1.title {
+  font-size: 50px;
+  font-family: 'Passion One', cursive;
+  font-weight: 400;
+}
+
+hr {
+  width: 10%;
+  color: #f5f5f5;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+label {
+  margin-bottom: 15px;
+}
+
+input {
+  font-size: 11px;
+  padding-top: 3px;
+}
+
+.main-login {
+  background-color: #f5f5f5;
+}
+
+.form-control {
+  height: auto!important;
+  padding: 8px 12px !important;
+}
+
+.input-group select {
+  width: 100%;
+}
+
+#button {
+  margin-top: 28px;
+  padding: 6px 12px;
+  color: #212529;
+  cursor: pointer;
+  background: #f5f5f5;
+}
+
+#button:hover {
+  background-color: #a73a31;
+  color: #f5f5f5;
+}
+
+.main-center {
+  margin: 0 auto;
+  max-width: 600px;
+  padding: 10px 40px;
+  background: #212529;
+  color: #f5f5f5;
+  text-shadow: none;
+}
+
+span.input-group-addon i {
+  color: #f5f5f5;
+  font-weight: bold;
+  font-size: 17px;
+}
+
+span.input-group-addon {
+  background-color: #a73a31;
+}
+
+.login-button {
+  margin-top: 5px;
+}
+
+.login-register {
+  font-size: 11px;
+  text-align: center;
+}

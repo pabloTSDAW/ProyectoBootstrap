@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>SUSHI SI</title>
+  <link rel="icon" type="image/x-icon" href="images/favicon.png">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- Bootstrap core CSS -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <!-- Material Design Bootstrap -->
+  <link href="css/mdb.min.css" rel="stylesheet">
+  <!-- Your custom styles (optional) -->
+  <link href="css/estilos.css" rel="stylesheet">
+</head>
+
+<body>
+
+  <div class="fixed-top">
+    <header class="topbar">
+      <div class="container">
+      </div>
+    </header>
+    <nav class="navbar navbar-expand-lg navbar-dark mx-background-top-linear">
+      <div class="container">
+        <img src="images/sushiLogo.png" width="75px" height="75px;">
+        <a id="titulo" class="navbar-brand" href="index.html">SUSHI<span>SI</span></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="carta.html">Carta</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="menu.html">Menús</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="galeria.html">Galería</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="comentarios.html">Comentarios</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="reserva.html">Reserva</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="localizacion.html">Localización</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </div>
+
+  <div class="container cuerpo">
+    <h2>GALERIA</h2>
+    <p>En SUSHISI estamos encantados de que visite nuestro restaurante japonés. Estamos preparados para traer a Granada lo mejor de Japón, de la mano de excelentes cocineros y de los ingredientes más frescos y de la mejor calidad. Esperamos que disfrute
+      de esta experiencia tradicional japonesa.</p>
+    <div class="row">
+      <div class="col-12 col-sm-6 col-md-4 text-center view hm-zoom"><a onclick="ampliar('galeria1')" data-toggle="modal" data-target="#myModal"><img src="images/galeria1.jpg" class="img-thumbnail rounded"></a>
+      </div>
+      <div class="col-12 col-sm-6 col-md-4 text-center view hm-zoom"><a onclick="ampliar('galeria2')" data-toggle="modal" data-target="#myModal"><img src="images/galeria2.jpg" class="img-thumbnail rounded"></a>
+      </div>
+      <div class="col-12 col-sm-6 col-md-4 text-center view hm-zoom"><a onclick="ampliar('galeria3')" data-toggle="modal" data-target="#myModal"><img src="images/galeria3.jpg" class="img-thumbnail rounded"></a>
+      </div>
+      <div class="col-12 col-sm-6 col-md-4 text-center view hm-zoom"><a onclick="ampliar('galeria4')" data-toggle="modal" data-target="#myModal"><img src="images/galeria4.jpg" class="img-thumbnail rounded"></a>
+      </div>
+      <div class="col-12 col-sm-6 col-md-4 text-center view hm-zoom"><a onclick="ampliar('galeria5')" data-toggle="modal" data-target="#myModal"><img src="images/galeria5.jpg" class="img-thumbnail rounded"></a>
+      </div>
+      <div class="col-12 col-sm-6 col-md-4 text-center view hm-zoom"><a onclick="ampliar('galeria6')" data-toggle="modal" data-target="#myModal"><img src="images/galeria6.jpg" class="img-thumbnail rounded"></a>
+      </div>
+      <div class="col-12 col-sm-6 col-md-4 text-center view hm-zoom"><a onclick="ampliar('galeria7')" data-toggle="modal" data-target="#myModal"><img src="images/galeria7.jpg" class="img-thumbnail rounded"></a>
+      </div>
+      <div class="col-12 col-sm-6 col-md-4 text-center view hm-zoom"><a onclick="ampliar('galeria8')" data-toggle="modal" data-target="#myModal"><img src="images/galeria8.jpg" class="img-thumbnail rounded"></a>
+      </div>
+      <div class="col-12 col-sm-6 col-md-4 text-center view hm-zoom"><a onclick="ampliar('galeria9')" data-toggle="modal" data-target="#myModal"><img src="images/galeria9.jpg" class="img-thumbnail rounded"></a>
+      </div>
+      <div class="col-12 col-sm-6 col-md-4 text-center view hm-zoom"><a onclick="ampliar('galeria10')" data-toggle="modal" data-target="#myModal"><img src="images/galeria10.jpg" class="img-thumbnail rounded"></a>
+      </div>
+      <div class="col-12 col-sm-6 col-md-4 text-center view hm-zoom"><a onclick="ampliar('galeria11')" data-toggle="modal" data-target="#myModal"><img src="images/galeria11.jpg" class="img-thumbnail rounded"></a>
+      </div>
+      <div class="col-12 col-sm-6 col-md-4 text-center view hm-zoom"><a onclick="ampliar('galeria12')" data-toggle="modal" data-target="#myModal"><img src="images/galeria12.jpg" class="img-thumbnail rounded"></a>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="modal fade" id="myModal">
+  </div>
+
+  <footer id="mainFooter" class="fixed-bottom" [ngClass]="{claro: estilo == 'light', metal: estilo == 'metal'}">
+    <div class="container-fluid">
+      <p>&copy; Pablo Prieto Álvarez</p>
+      <p style="color: #a73a31;">SUSHISI</p>
+      <ul class="social-nav">
+        <li class="icon-bubble"><a href="https://www.facebook.com/pablo.prieto.507" target="_blank"><span class="facebook">f</span></a></li>
+        <li class="icon-bubble"><a href="https://github.com/pabloTSDAW" target="_blank"><span class="github">Git</span></a></li>
+      </ul>
+    </div>
+  </footer>
+
+  <!-- SCRIPTS -->
+  <!-- JQuery -->
+  <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+  <!-- Bootstrap tooltips -->
+  <script type="text/javascript" src="js/popper.min.js"></script>
+  <!-- Bootstrap core JavaScript -->
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <!-- MDB core JavaScript -->
+  <script type="text/javascript" src="js/mdb.min.js"></script>
+
+  <script type="text/javascript">
+
+  function ampliar(img){
+    $('#myModal').empty();
+    $('#myModal').append(
+      '<div class="modal-dialog" style="max-width: 1000px;">'+
+        '<div class="modal-content">'+
+          '<button type="button" class="close text-center" data-dismiss="modal">Cerrar</button>'+
+          '<img class="img-fluid" src="images/' + img + '.jpg" alt=' + img + '/>'+
+        '</div>'+
+      '</div>'
+    );
+  }
+
+
+
+
+  </script>
+
+</body>
+
+</html>
