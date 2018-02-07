@@ -371,6 +371,14 @@ p {
   transform: scale(1.05);
 }
 
+.informacion h1 {
+  font-size: 2.4em;
+}
+
+.informacion p {
+  font-size: 1.5em;
+}
+
 @media screen and (max-width: 480px) {
   .cuerpo {
     margin-bottom: 180px;
@@ -386,6 +394,9 @@ p {
   }
   .active {
     color: #a73a31 !important;
+  }
+  .informacion h1 {
+    font-size: 2.5em;
   }
 }
 
