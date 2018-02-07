@@ -1,5 +1,9 @@
 Elementos de MATERIAL DESIGN utilizados:
 
+- Footer:
+  class="fa fa-github"    *Para poner el logotipo de Github en el footer.
+  class="fa fa-facebook"  *Para poner el logotipo de Facebook en el footrer.
+
 - Sección Comentarios:
   <i class="fa fa-star">  *Para poner las estrellas de calificación.
 

@@ -406,6 +406,16 @@ p {
   align-items: flex-end;
 }
 
+#mainFooter span {
+  font-size: 1.2em;
+  color: #212529;
+  text-shadow: none;
+}
+
+#mainFooter li:hover span {
+  color: #a73a31;
+}
+
 .social-nav {
   margin: 1em;
   list-style: none;
@@ -496,20 +506,21 @@ footer p {
   font-size: 1em;
 }
 
-.facebook {
-  font-size: 1.5em;
-  font-weight: bold;
-}
-
-.github {
-  font-weight: bold;
-}
-
 @media screen and (max-width: 480px) {
   #mainFooter div {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
+  }
+  #mainFooter li{
+    margin-left: 0;
+  }
+  #mainFooter p {
+    margin-bottom: 5px;
+  }
+  #mainFooter ul {
+    margin: 2px;
   }
 }
 
