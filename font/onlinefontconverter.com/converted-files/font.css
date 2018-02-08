@@ -1,0 +1,18 @@
+@font-face {
+  font-family: 'BolideRegular';
+  src: url('BolideRegular.woff') format('woff'),
+       url('BolideRegular.ttf') format('truetype'),
+       url('BolideRegular.svg#BolideRegular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'japaneseBrush';
+  src: url('japaneseBrush.eot');
+  src: url('japaneseBrush.woff2') format('woff2'),
+       url('japaneseBrush.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
