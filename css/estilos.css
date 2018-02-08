@@ -14,8 +14,8 @@ body {
 }
 
 @font-face {
-    font-family: japaneseBrush;
-    src: url('../font/japaneseBrush.TTF');
+    font-family: japan;
+    src: url('../font/japan.TTF');
 }
 
 @font-face {
@@ -260,7 +260,7 @@ li {
 }
 
 .informacion {
-  font-family: japaneseBrush;
+  font-family: japan;
   margin-bottom: 75px;
 }
 
@@ -278,7 +278,7 @@ li {
 }
 
 h2 {
-  font-family: japaneseBrush;
+  font-family: japan;
   color: #a73a31;
   text-align: center;
   margin-bottom: 15px;
