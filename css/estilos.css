@@ -14,8 +14,8 @@ body {
 }
 
 @font-face {
-    font-family: japan;
-    src: url('../font/japan.TTF');
+    font-family: BolideRegular;
+    src: url('../font/BolideRegular.ttf');
 }
 
 @font-face {
@@ -260,7 +260,7 @@ li {
 }
 
 .informacion {
-  font-family: japan;
+  font-family: BolideRegular;
   margin-bottom: 75px;
 }
 
@@ -278,7 +278,7 @@ li {
 }
 
 h2 {
-  font-family: japan;
+  font-family: BolideRegular;
   color: #a73a31;
   text-align: center;
   margin-bottom: 15px;
