@@ -468,8 +468,8 @@
       <p>&copy; Pablo Prieto Álvarez</p>
       <p style="color: #a73a31;">SUSHISI</p>
       <ul class="social-nav">
-        <li class="icon-bubble"><a href="https://www.facebook.com/pablo.prieto.507" target="_blank"><span class="fa fa-facebook"></span></a></li>
-        <li class="icon-bubble"><a href="https://github.com/pabloTSDAW" target="_blank"><span class="fa fa-github"></span></a></li>
+        <li class="icon-bubble"><a href="https://www.facebook.com/pablo.prieto.507" target="_blank" data-toggle="tooltip" data-placement="top" title="Facebook: Pablo Prieto"><span class="fa fa-facebook"></span></a></li>
+        <li class="icon-bubble"><a href="https://github.com/pabloTSDAW" target="_blank" data-toggle="tooltip" data-placement="top" title="Github: pablotsdaw"><span class="fa fa-github"></span></a></li>
       </ul>
     </div>
   </footer>
@@ -495,6 +495,10 @@
     function ocultar(elem, clase){
       $(elem).siblings(clase).toggle();
     }
+
+    $(document).ready(function() {
+      $('[data-toggle="tooltip"]').tooltip();
+    });
 
   </script>
 </body>

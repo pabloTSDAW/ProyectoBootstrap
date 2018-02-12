@@ -89,21 +89,21 @@
       </div>
     </div>
 
-  <div class="container informacion">
-    <div class="row">
-      <div class="col-12 col-md-6">
-        <h1><a href="localizacion.html">EL RESTAURANTE</a></h1>
-        <p><span>SUSHISI</span> abrió sus puertas en 2017 para ofrecer a la ciudad y su cinturón urbano un nuevo concepto de cocina japonesa: platos auténticamente japoneses para recoger en nuestro local o solicitar para reparto a domicilio. Desde 2018,
-          ofrecemos una carta ampliada a degustar también en nuestro restaurante así como servicios de catering para bodas y eventos.</p>
-      </div>
-      <div class="col-1 clearfix"></div>
-      <div class="col-12 col-md-5">
-        <h1><a href="carta.html">NUESTRA CARTA</a></h1>
-        <p>Nuestros clientes podrán degustar una amplia variedad de platos: sushi, tempuras, carnes, sopas, ensaladas y exquisitos postres. Todo ello elaborado con una materia prima de primera calidad, con una excelente presentación, y servido en un ambiente
-          acogedor con decoración japonesa.</p>
+    <div class="container informacion">
+      <div class="row">
+        <div class="col-12 col-md-6">
+          <h1><a href="localizacion.html">EL RESTAURANTE</a></h1>
+          <p><span>SUSHISI</span> abrió sus puertas en 2017 para ofrecer a la ciudad y su cinturón urbano un nuevo concepto de cocina japonesa: platos auténticamente japoneses para recoger en nuestro local o solicitar para reparto a domicilio. Desde 2018,
+            ofrecemos una carta ampliada a degustar también en nuestro restaurante así como servicios de catering para bodas y eventos.</p>
+        </div>
+        <div class="col-1 clearfix"></div>
+        <div class="col-12 col-md-5">
+          <h1><a href="carta.html">NUESTRA CARTA</a></h1>
+          <p>Nuestros clientes podrán degustar una amplia variedad de platos: sushi, tempuras, carnes, sopas, ensaladas y exquisitos postres. Todo ello elaborado con una materia prima de primera calidad, con una excelente presentación, y servido en un ambiente
+            acogedor con decoración japonesa.</p>
+        </div>
       </div>
     </div>
-  </div>
   </div>
 
   <footer id="mainFooter" class="fixed-bottom" [ngClass]="{claro: estilo == 'light', metal: estilo == 'metal'}">
@@ -111,8 +111,8 @@
       <p>&copy; Pablo Prieto Álvarez</p>
       <p style="color: #a73a31;">SUSHISI</p>
       <ul class="social-nav">
-        <li class="icon-bubble"><a href="https://www.facebook.com/pablo.prieto.507" target="_blank"><span class="fa fa-facebook"></span></a></li>
-        <li class="icon-bubble"><a href="https://github.com/pabloTSDAW" target="_blank"><span class="fa fa-github"></span></a></li>
+        <li class="icon-bubble"><a href="https://www.facebook.com/pablo.prieto.507" target="_blank" data-toggle="tooltip" data-placement="top" title="Facebook: Pablo Prieto"><span class="fa fa-facebook"></span></a></li>
+        <li class="icon-bubble"><a href="https://github.com/pabloTSDAW" target="_blank" data-toggle="tooltip" data-placement="top" title="Github: pablotsdaw"><span class="fa fa-github"></span></a></li>
       </ul>
     </div>
   </footer>
@@ -126,6 +126,12 @@
   <script type="text/javascript" src="js/bootstrap.min.js"></script>
   <!-- MDB core JavaScript -->
   <script type="text/javascript" src="js/mdb.min.js"></script>
+
+  <script type="text/javascript">
+    $(document).ready(function() {
+      $('[data-toggle="tooltip"]').tooltip();
+    });
+  </script>
 </body>
 
 </html>

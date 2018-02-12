@@ -93,8 +93,8 @@
       <p>&copy; Pablo Prieto Álvarez</p>
       <p style="color: #a73a31;">SUSHISI</p>
       <ul class="social-nav">
-        <li class="icon-bubble"><a href="https://www.facebook.com/pablo.prieto.507" target="_blank"><span class="fa fa-facebook"></span></a></li>
-        <li class="icon-bubble"><a href="https://github.com/pabloTSDAW" target="_blank"><span class="fa fa-github"></span></a></li>
+        <li class="icon-bubble"><a href="https://www.facebook.com/pablo.prieto.507" target="_blank" data-toggle="tooltip" data-placement="top" title="Facebook: Pablo Prieto"><span class="fa fa-facebook"></span></a></li>
+        <li class="icon-bubble"><a href="https://github.com/pabloTSDAW" target="_blank" data-toggle="tooltip" data-placement="top" title="Github: pablotsdaw"><span class="fa fa-github"></span></a></li>
       </ul>
     </div>
   </footer>
@@ -108,6 +108,12 @@
   <script type="text/javascript" src="js/bootstrap.min.js"></script>
   <!-- MDB core JavaScript -->
   <script type="text/javascript" src="js/mdb.min.js"></script>
+
+  <script type="text/javascript">
+    $(document).ready(function() {
+      $('[data-toggle="tooltip"]').tooltip();
+    });
+  </script>
 </body>
 
 </html>
