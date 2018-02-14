@@ -314,7 +314,8 @@ h2 {
   text-decoration: none;
 }
 
-.list-group{
+.list-group a{
+  margin-bottom: 5px;
   box-shadow: 5px 5px 8px rgb(56, 54, 54);
 }
 
