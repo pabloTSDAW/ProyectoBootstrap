@@ -198,6 +198,10 @@ li {
   color: white !important;
 }
 
+.dropdown-toggle::after {
+    display:none
+}
+
 /* ------------------- FIN HEADER ------------------- */
 
 /* ------------------- CONTENIDO PRINCIPAL ------------------- */
